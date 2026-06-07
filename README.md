@@ -21,7 +21,7 @@ You are only required to do any 4 of the below for the grading. However, it is r
 
 Tasks:
 
-Assignment 1: Automated Instance Management Using AWS Lambda and Boto3
+**Assignment 1: Automated Instance Management Using AWS Lambda and Boto3**
 
 Objective: In this assignment, you will gain hands-on experience with AWS Lambda and Boto3, Amazon's SDK for Python. You will create a Lambda function that will automatically manage EC2 instances based on their tags.
 
@@ -93,7 +93,7 @@ Instructions:
 
    - Go to the EC2 dashboard and confirm that the instances' states have changed according to their tags.
 
-Assignment 2: Automated S3 Bucket Cleanup Using AWS Lambda and Boto3
+**Assignment 2: Automated S3 Bucket Cleanup Using AWS Lambda and Boto3**
 
 Objective: To gain experience with AWS Lambda and Boto3 by creating a Lambda function that will automatically clean up old files in an S3 bucket.
 
@@ -137,7 +137,7 @@ Instructions:
 
    - Go to the S3 dashboard and confirm that only files newer than 30 days remain.
 
-Assignment 3: Monitor Unencrypted S3 Buckets Using AWS Lambda and Boto3
+**Assignment 3: Monitor Unencrypted S3 Buckets Using AWS Lambda and Boto3**
 
 Objective: To enhance your AWS security posture by setting up a Lambda function that detects any S3 bucket without server-side encryption.
 
@@ -179,7 +179,7 @@ Instructions:
 
    - Review the Lambda logs to identify the buckets without server-side encryption.
 
-Assignment 4: Automatic EBS Snapshot and Cleanup Using AWS Lambda and Boto3
+**Assignment 4: Automatic EBS Snapshot and Cleanup Using AWS Lambda and Boto3**
 
 Objective: To automate the backup process for your EBS volumes and ensure that backups older than a specified retention period are cleaned up to save costs.
 
@@ -227,7 +227,7 @@ Instructions:
 
    - Go to the EC2 dashboard and confirm that the snapshot is created and old snapshots are deleted.
 
-Assignment 5: Auto-Tagging EC2 Instances on Launch Using AWS Lambda and Boto3
+**Assignment 5: Auto-Tagging EC2 Instances on Launch Using AWS Lambda and Boto3**
 
 Objective: Learn to automate the tagging of EC2 instances as soon as they are launched, ensuring better resource tracking and management.
 
@@ -275,7 +275,7 @@ Instructions:
 
    - After a short delay, confirm that the instance is automatically tagged as specified.
 
-Assignment 6: Monitor and Alert High AWS Billing Using AWS Lambda, Boto3, and SNS
+**Assignment 6: Monitor and Alert High AWS Billing Using AWS Lambda, Boto3, and SNS**
 
 Objective: Create an automated alerting mechanism for when your AWS billing exceeds a certain threshold.
 
@@ -325,7 +325,7 @@ Instructions:
 
    - If your billing is over the threshold, you should receive an email alert.
 
-Assignment 7: DynamoDB Item Change Alert Using AWS Lambda, Boto3, and SNS
+**Assignment 7: DynamoDB Item Change Alert Using AWS Lambda, Boto3, and SNS**
 
 Objective: Automate the process to receive an alert whenever an item in a DynamoDB table gets updated.
 
@@ -387,7 +387,7 @@ Submission:
 
 - Share screenshots of the SNS alert and Lambda logs.
 
-Assignment 8: Analyze Sentiment of User Reviews Using AWS Lambda, Boto3, and Amazon Comprehend
+**Assignment 8: Analyze Sentiment of User Reviews Using AWS Lambda, Boto3, and Amazon Comprehend**
 
 Objective: Automatically analyze and categorize the sentiment of user reviews using Amazon Comprehend.
 
@@ -423,7 +423,7 @@ Instructions:
 
    - Confirm the sentiment analysis results in the Lambda logs.
 
-Assignment 9: Archive Old Files from S3 to Glacier Using AWS Lambda and Boto3
+**Assignment 9: Archive Old Files from S3 to Glacier Using AWS Lambda and Boto3**
 
 Objective: Automate the archival of files older than a certain age from an S3 bucket to Amazon Glacier for cost-effective storage.
 
@@ -467,7 +467,7 @@ Instructions:
 
    - Confirm that older files in the S3 bucket are moved to the Glacier storage class.
 
-Assignment 10: Notify When ELB 5xx Errors Spike Using AWS Lambda, Boto3, and SNS
+**Assignment 10: Notify When ELB 5xx Errors Spike Using AWS Lambda, Boto3, and SNS**
 
 Objective: To automatically receive notifications when your Elastic Load Balancer (ELB) encounters an unusually high number of 5xx errors.
 
@@ -512,7 +512,7 @@ Submission:
 - Screenshots of the ELB error metrics and received SNS notifications.
 
 
-Assignment 11: EC2 Backup and File Cleanup Using Lambda, Boto3, and S3
+**Assignment 11: EC2 Backup and File Cleanup Using Lambda, Boto3, and S3**
 
 Objective: Automatically back up EC2 instance data to S3 and delete backups older than 30 days.
 
@@ -544,7 +544,7 @@ Instructions:
 
    - Verify that backups are being created in the S3 bucket and that old ones are removed.
 
-Assignment 12: Auto-Scale EC2 Instances Based on Load Using AWS Lambda, Boto3, and SNS
+**Assignment 12: Auto-Scale EC2 Instances Based on Load Using AWS Lambda, Boto3, and SNS**
 
 Objective: Automatically scale up or down the number of EC2 instances based on network load.
 
@@ -586,7 +586,7 @@ Instructions:
 
    - Confirm that EC2 instances are correctly scaled and SNS notifications are received.
 
-Assignment 13: Audit S3 Bucket Permissions and Notify for Public Buckets
+**Assignment 13: Audit S3 Bucket Permissions and Notify for Public Buckets**
 
 Objective: Automatically audit S3 bucket permissions and send notifications if any buckets have public read or write permissions.
 
@@ -626,7 +626,7 @@ Instructions:
 
    - Run the Lambda function and ensure you receive appropriate SNS notifications.
 
-Assignment 14: Monitor EC2 Instance State Changes Using AWS Lambda, Boto3, and SNS
+**Assignment 14: Monitor EC2 Instance State Changes Using AWS Lambda, Boto3, and SNS**
 
 Objective: Automatically monitor changes in EC2 instance states and send notifications whenever an instance is started or stopped.
 
@@ -664,7 +664,7 @@ Instructions:
 
    - Confirm you receive an SNS notification about the state change.
 
-Assignment 15: Implement a Log Cleaner for S3
+**Assignment 15: Implement a Log Cleaner for S3**
 
 Objective: Create a Lambda function that automatically deletes logs in a specified S3 bucket that are older than 90 days.
 
@@ -681,7 +681,7 @@ Instructions:
 
 3. Schedule this function to run weekly using AWS EventBridge.
 
-Assignment 16: Automated SNS Alerts for EC2 Disk Space Utilization
+**Assignment 16: Automated SNS Alerts for EC2 Disk Space Utilization**
 
 Objective: Set up a Lambda function that checks EC2 instances for disk space utilization, sending an SNS alert if utilization exceeds 85%.
 
@@ -697,7 +697,7 @@ Instructions:
 
 3. Set up a CloudWatch event to trigger this Lambda function daily.
 
-Assignment 17: Restore EC2 Instance from Snapshot
+**Assignment 17: Restore EC2 Instance from Snapshot**
 
 Objective: Automate the process of creating a new EC2 instance from the latest snapshot using a Lambda function.
 
@@ -712,7 +712,7 @@ Instructions:
 
 3. Trigger this Lambda function manually or on a schedule, depending on your recovery requirements.
 
-Assignment 18: Autosave EC2 Instance State Before Shutdown
+**Assignment 18: Autosave EC2 Instance State Before Shutdown**
 
 Objective: Before an EC2 instance is shut down, automatically save its current state to an S3 bucket.
 
@@ -727,7 +727,7 @@ Instructions:
 
 3. Use CloudWatch Events to trigger this Lambda function whenever an EC2 termination command is detected.
 
-Assignment 19: Load Balancer Health Checker
+**Assignment 19: Load Balancer Health Checker**
 
 Objective: Design a Lambda function that checks the health of registered instances behind an Elastic Load Balancer (ELB) and notifies via SNS if any instances are unhealthy.
 
